@@ -1,0 +1,9 @@
+The Resquest response Cycle:
+
+1. Client makes a request such as "http://.www.amazon.com"
+2. Client get back a response from the server (the computer that amazon owns that has all thier web pages) the response is a webpage.
+3. The response consists of: HTML, CSS, Javascript
+
+
+HTML- The content of the web page (Text, images, form inputs, form dropdowns, checkboxes/radio buttons, buttons,links)
+CSS- The Styling 
