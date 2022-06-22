@@ -1,0 +1,32 @@
+* {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+border: 1px solid black;
+}
+
+body {
+  background-color: aqua;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  color: firebrick;
+  font-size: 40px;
+  background-color: rgb(167, 228, 193);
+}
+
+h2 {
+  text-align: right;
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: 100px;
+  font-family: fantasy;
+}
+
+h3 {
+font-family: monospace;
+}
+
+span {
+  color: darkkhaki;
+}
