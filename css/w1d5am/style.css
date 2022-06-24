@@ -1,0 +1,18 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  height: 100vh;
+    background-image: linear-gradient(to bottom right, grey, white);
+
+}
+
+.main{
+  height: 700px;
+  width: 1000px;
+  outline: 4px red;
+  margin: 0 auto;
+}
+
