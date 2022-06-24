@@ -1,0 +1,17 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+#navbar{
+  height: 100px;
+  background-color: gray;
+  display: flex;
+}
+
+#navleft{
+  outline: 3px solid green;
+  height: 100px;
+  width: 500px;
+  
+}
