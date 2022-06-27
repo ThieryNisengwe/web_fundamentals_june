@@ -1,17 +1,334 @@
 *{
-  margin: 0px;
-  padding: 0px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
 }
 
-#navbar{
-  height: 100px;
-  background-color: gray;
-  display: flex;
+#nav-bar{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 10px 200px;
+    margin-bottom: 30px;
 }
 
-#navleft{
-  outline: 3px solid green;
-  height: 100px;
-  width: 500px;
-  
+#nav-left{
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    font-family: cursive;
+    
 }
+
+#nav-left a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+#sign-out-button{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(23,162,184);
+    font-size: 1.1rem;
+    color: white;
+    font-family:cursive ;
+
+}
+
+ul li:first-child{
+    margin-right: 40px;
+}
+
+
+.col-left{
+    /* outline: rgb(125, 255, 105) solid 2px; */
+    height: 900px;
+    /* width: 500px; */
+    flex: 2;
+    margin-right: 30px;
+    
+}
+
+.col-right{
+    height: 900px;
+    flex: 1;
+}
+
+#main{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 200px;
+}
+
+#profileCardHeader{
+    background-color: rgb(23,162,184);
+    height: 100px;
+    padding-top: 50px;
+    padding-left: 40px;
+    
+    
+}
+
+#main-pic{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    outline: 3px solid white;
+    box-shadow: 0px 0px 0px 5px grey;
+    
+    
+}
+
+#profile-body,#profile-body2{
+    border: 3px solid grey;
+    border-top: none;
+    height: 250px;
+    display: flex;
+    
+}
+
+#map{
+    height:20px ;
+}
+
+#description{
+    margin-top: 5px;
+    font-family: cursive;
+    font-size: 14px;
+}
+
+#desc2{
+    font-size: 14px;
+    margin-bottom: 20px;
+
+}
+
+#span{
+    font-size: 20px;
+    margin-left: 5px;
+    font-family: cursive;
+}
+
+#gear{
+    width: 15px;
+    height: 15px;
+}
+
+#info{
+    padding: 40px;
+    margin-top: 30px;
+    
+}
+h2{
+    margin-top: -10px;
+    display: flex;
+}
+
+#jane{
+    margin-bottom: 5px;
+    font-family: cursive;
+}
+
+#edit{
+    margin-left: 5px;
+} 
+
+#align{
+    align-items: center;
+    display: flex;
+}
+
+
+#edu{
+    padding: 25px;
+    margin-left: 15px;
+}
+.profile-card2{
+    background-color: rgb(51,51,51);
+    color: white;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+#profile-body2{
+    border-bottom: none;
+    display: flex;
+    height: 100px;
+}
+
+#ul1{
+    margin-left: 40px;
+    font-family: cursive;
+    list-style-type: none;
+}
+
+#edu-desc{
+    margin-top: 10px;
+    display: flex;
+    font-size: 1.3rem;
+}
+
+#dates{
+    display: flex;
+    color: grey;
+    
+}
+
+#accomplished{
+    margin-top: 2px;
+}
+
+.requests{
+    height: 200px;
+    vertical-align: top;
+}
+
+.count{
+    background-color: rgb(160,159,161);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    color: black;
+    
+
+}
+
+.profile-card3{
+    background-color: rgb(51,51,51);
+    color: white;
+    padding: 5px;
+    height:50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.person{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.person img:first-child,img{
+    height:60px ;
+    border-radius: 50%;
+}
+
+.person> span{
+    font-size: 1rem;
+}
+
+.accept{
+    height: 35px;    
+}
+
+.accept1{
+    height: 35px;
+    margin-left: 10px;
+}
+
+.phil{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    justify-content: space; 
+}
+
+.card-body{
+    padding: 10px;
+    border: 3px solid grey;
+    border-top: none;
+    justify-content: space-evenly;
+    
+}
+
+.phil-pic{
+    margin-right: 15px;
+}
+    
+
+.connections{
+    height: 300px ;
+    margin-top: 50px;
+    
+}
+
+.profile-card4{
+    background-color: rgb(51,51,51);
+    color: white;
+    padding: 5px;
+    height:50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.card-body2{
+    padding: 10px;
+    border: 3px solid grey;
+    border-top: none;
+    justify-content: space-evenly;
+    
+}
+
+.person2{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+
+
+.person3{
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    margin-top: 10px;
+}
+
+
+
+.person4{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 10px;
+}
+
+.person5{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 10px;
+}
+
+.friends{
+    background-color: rgb(160,159,161);
+    border-radius: 50%;
+    height: 30px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    color: black;
+}
+
+#view{
+    border: 3x solid grey;
+}
+
+
